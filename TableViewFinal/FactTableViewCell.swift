@@ -9,4 +9,15 @@
 import UIKit
 
 class FactTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var factTextView: UITextView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+    }
+    
 }
